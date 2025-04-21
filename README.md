@@ -111,3 +111,7 @@ curl http://localhost:8000/cities
 - `GET /health` - Health check endpoint
 - `PUT /cities/{city_name}` - Add or update city population
 - `GET /cities/{city_name}` - Get city population
+
+## Possible next steps in the Project:
+* Implement CI/CD pipelines based on Github Actions to cover both infrastructure IaaC and application codes
+* Configure scaling both on managed cluster sides and app deployment side
